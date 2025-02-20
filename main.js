@@ -1,3 +1,3 @@
-import {test} from './dropdown/dropdown.js";
+import {test} from './dropdown/dropdown.js'
 
 console.log(test);
