@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 0;
+    padding: 0px 60px 0px 60px;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header > div{
+    justify-self: center;
+}
+.dropdownItemList{
+    display: none;
+    height: 400px;
+    width: 200px;
+    background-color: lightpink;
+    position: absolute;
+    z-index: 1;
+}
