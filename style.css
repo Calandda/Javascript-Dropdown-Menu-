@@ -13,11 +13,15 @@ header{
 header > div{
     justify-self: center;
 }
+header > div:hover{
+    background-color: lightpink;
+}
 .dropdownItemList{
     display: none;
     height: 400px;
     width: 200px;
     background-color: lightpink;
     position: absolute;
+    right: 0;
     z-index: 1;
 }
